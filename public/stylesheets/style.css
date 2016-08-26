@@ -2,7 +2,7 @@ body {
   font: 14px "Source Sans Pro", Helvetica, Arial, sans-serif;
   color: rgb(91, 91, 91);
   line-height: 1.66em;
-  height: 100vh;
+  min-height: 100vh;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3d3281+23,2c3e50+97 */
 background: #3d3281; /* Old browsers */
 background: -moz-linear-gradient(top,  #3d3281 23%, #2c3e50 97%); /* FF3.6-15 */
