@@ -35,3 +35,20 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+lib-cov
+.DS_Store
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.xcf
+*.db
+*.html
+.tags*
+.env
+temp
+Thumbs.db
