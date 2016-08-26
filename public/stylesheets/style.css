@@ -1,8 +1,16 @@
+html,
+body {
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+}
+
 body {
   font: 14px "Source Sans Pro", Helvetica, Arial, sans-serif;
   color: rgb(91, 91, 91);
   line-height: 1.66em;
   min-height: 100vh;
+  max-width: 100vw;
   overflow-x: hidden;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3d3281+23,2c3e50+97 */
   background: #3d3281; /* Old browsers */
@@ -30,8 +38,3 @@ h4.splash-text {
 .navbar-brand {
   height: 100px;  
 }
-
-.not-header {
-
-}
-
