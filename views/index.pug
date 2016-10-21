@@ -3,20 +3,20 @@ extends layout
 block content
   .navbar.navbar-default
     .container-fluid
-      .navbar-header
+      .navbar-header.visible-xs
         a.navbar-brand
           img(src="/images/boweryLogo_white.png" height=75 width=75)
   .container-fluid.not-header
-    .row.hidden-xs
-      .col-sm-12.text-center
-        img(src="/images/splashScreenshot.png")
-    .row
-      .col-sm-6.col-sm-offset-3.text-center
-        h4.splash-text 
-          | Bowery is a web platform for commercial appraisers.
-          br
-          | Email 
-          a(href="mailto:info@boweryres.com") info@boweryres.com 
-          | to schedule a demo
-        //button.btn.btn-primary learn more
+    .content
+      .row.hidden-xs
+        .col-sm-12.text-center
+          img(src="/images/boweryLogo_medium.png")
+      .row
+        .col-sm-8.col-sm-offset-2.text-center
+          h3.splash-text 
+            | Bowery is a web platform for commercial appraisers.
+            br
+            | Email 
+            a(href="mailto:info@boweryres.com") info@boweryres.com 
+            | to schedule a demo
   

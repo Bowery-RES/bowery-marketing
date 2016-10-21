@@ -18,15 +18,24 @@ body {
   background: -webkit-linear-gradient(top,  #3d3281 23%,#2c3e50 97%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  #3d3281 23%,#2c3e50 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3281', endColorstr='#2c3e50',GradientType=0 ); /* IE6-9 */
+  background-image:url('/images/boweryBackground.jpg');
+  background-size: cover;
 }
 
 a {
   color: #00B7FF;
+  text-decoration: underline;
 }
 
-h4.splash-text {
+h3.splash-text {
   color: #ebebeb;
-  line-height: 1.3em;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
 }
 
 .navbar.navbar-default {
