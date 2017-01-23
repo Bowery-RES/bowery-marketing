@@ -14,8 +14,8 @@ block content
                 a(href="#") Team
               li
                 a(href="#") Home
-      .container-fluid
-        .col-md-4.col-md-offset-4.col-sm-6.col-sm-offset-3
+      .container-fluid.vertically-center
+        .hero-copy.col-md-4.col-md-offset-4.col-sm-6.col-sm-offset-3
           h1
             | Bad Boys
             br
@@ -26,10 +26,14 @@ block content
           p
             .btn.btn-danger Find Out How
   .container-fluid.not-header
-    .col-sm-12.text-center
+    .col-sm-12
       .row
         .col-md-4.col-md-offset-4.col-sm-6.col-sm-offset-3
-          h3 Our Tech Makes Us Different
+          h3.text-center
+            | Our Tech
+            wbr
+            | &nbsp;
+            | Makes Us Different
           p Powered by big data, advanced technology, and extensive expertise, Bowery is redefining the commercial appraisal space with never before seen access to underlying property data.
     include bowery-benefits
   include contact
