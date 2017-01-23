@@ -6,20 +6,12 @@ body {
 }
 
 body {
-  font: 14px "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font: 18px "Source Sans Pro", Helvetica, Arial, sans-serif;
   color: rgb(91, 91, 91);
   line-height: 1.66em;
   min-height: 100vh;
   max-width: 100vw;
   overflow-x: hidden;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3d3281+23,2c3e50+97 */
-  background: #3d3281; /* Old browsers */
-  background: -moz-linear-gradient(top,  #3d3281 23%, #2c3e50 97%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #3d3281 23%,#2c3e50 97%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #3d3281 23%,#2c3e50 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3281', endColorstr='#2c3e50',GradientType=0 ); /* IE6-9 */
-  background-image:url('/images/boweryBackground.jpg');
-  background-size: cover;
 }
 
 a {
@@ -27,25 +19,123 @@ a {
   text-decoration: underline;
 }
 
-h3.splash-text {
-  color: #ebebeb;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1.1;
+  color: #444444;
 }
-
-.content {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  margin: auto;
-  left: 0;
-  right: 0;
-}
-
 .navbar.navbar-default {
   box-shadow: none;
   background-color:transparent;
   margin-bottom: 0px;
 }
 
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .navbar-brand {
   height: 100px;  
+}
+
+#home-hero {
+  height: 700px;
+  background-image:url('/images/test_home_background.jpg');
+  background-size: cover;
+}
+
+.jumbotron h1,
+.jumbotron .h1 {
+  color: #fff;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.jumbotron p {
+  font-weight: 400;
+}
+
+.jumbotron {
+  text-align: center;
+  padding: 0;
+  color: #fff;
+  h1, h2, h3, h4, h5 {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+}
+
+.hero-inner {
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+  top: 0;
+}
+
+.hero-inner h3, 
+.hero-inner .h3,
+.hero-inner h4,
+.hero-inner .h4 {
+  color: #fff;
+}
+
+#contact {
+  height: 300px;
+  background-color: black;
+  background-image:url('/images/test_contact_background.jpg');
+  background-size: cover;
+  background-position: center -200px;
+}
+
+#contact h4 {
+  font-weight: 400;
+}
+
+#bowery-benefits ul {
+  position: relative;
+  z-index: 1;
+  margin-left: 0;
+}
+
+#bowery-benefits .dot {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  border-radius: 50%;
+  border: 5px #2C4B68 solid;
+  background-color: white;
+}
+
+#bowery-benefits li {
+  width: 20%;
+  vertical-align: top;
+}
+
+#bowery-benefits li p {
+  margin-top: 35px;
+}
+
+.timeline {
+  width: 79%;
+  height: 2px;
+  background-color: red;
+  position: relative;
+  top: 10px;
+  z-index: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
 }
