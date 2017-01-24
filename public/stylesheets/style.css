@@ -57,6 +57,13 @@ h6,
   background-size: cover;
 }
 
+#team-hero {
+  height: 350px;
+  background-image:url('/images/test_team_background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
 .jumbotron h1,
 .jumbotron .h1 {
   color: #fff;
@@ -156,5 +163,28 @@ h6,
   background: -webkit-linear-gradient(left,  #1e5799 0%,#009688 0%,#2d93d9 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right,  #1e5799 0%,#009688 0%,#2d93d9 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+}
 
+.bio-img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+
+.bio-tile {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.bio-tile h3 {
+  margin-top: 0;
+}
+
+#team-bios {
+  background-image:url('/images/small_steps.png'); 
+}
+
+#team-bios .hero-copy {
+  min-height: 250px;
 }
