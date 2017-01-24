@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  font: 18px "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font: 16px "Open Sans", Helvetica, Arial, sans-serif;
   color: rgb(91, 91, 91);
   line-height: 1.66em;
   min-height: 100vh;
@@ -32,9 +32,9 @@ h6,
 .h5,
 .h6 {
   font-family: inherit;
-  font-weight: bold;
   line-height: 1.1;
   color: #444444;
+  font-family: 'Lato', sans-serif;
 }
 .navbar.navbar-default {
   box-shadow: none;
@@ -59,7 +59,7 @@ h6,
 
 #team-hero {
   height: 350px;
-  background-image:url('/images/test_team_background.jpg');
+  background-image:url('/images/shutterstock_441668059.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -67,8 +67,7 @@ h6,
 .jumbotron h1,
 .jumbotron .h1 {
   color: #fff;
-  font-weight: 700;
-  font-style: italic;
+  font-weight: bold;
 }
 
 .jumbotron p {
