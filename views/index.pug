@@ -1,24 +1,26 @@
 extends layout
 
 block content
+  - var homeClass = 'active'
   .jumbotron#home-hero
     .hero-inner
       include nav
       .container-fluid.d-flex.hero-content-wrapper.justify-content-center
-        .row.align-self-center
-          .hero-copy.col-12.col-md-auto
-            h1
+        .row.align-self-center.justify-content-center
+          .hero-copy.col-10.col-md-auto
+            h1.display-4
               | Unrivaled accuracy, consistency, and quality
             p Bowery is the world's first truly tech-enabled appraisal firm
             p
-              .btn.btn-danger Find Out How
+              .hidden-xs-down.btn.btn-danger Find Out How
   .container-fluid
     .row
-      .col-sm-6.offset-sm-3.text-center
+      .responsive-alignment.col-sm-6.offset-sm-3
         h3
           | Our Tech
           wbr
           |  Makes Us Different
+        br
         p Powered by big data, advanced technology, and extensive expertise, Bowery is redefining the commercial appraisal space with never before seen access to underlying property data.
     .row
       include bowery-benefits
