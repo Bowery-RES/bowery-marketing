@@ -91,6 +91,7 @@ h6,
   background-color: rgba(0,0,0,0.5);
   height: 100%;
   top: 0;
+  z-index: 1;
 }
 
 .vertically-center {
@@ -217,10 +218,13 @@ h6,
   max-height: 700px;
   overflow: hidden;
   margin-top: -700px;
+  z-index: 0;
+  display: none;
 }
 
 video {
   width: 1646px;
+  display: none;
 }
 
 @media (min-width: 768px) {
@@ -230,9 +234,6 @@ video {
   .navbar-nav > li > a {
       padding-top: 38.5px;
       padding-bottom: 38.5px;
-  }
-  #home-hero {
-    height: 700px;
   }
 
   #team-hero {
@@ -266,6 +267,15 @@ video {
     height: 100%;
     margin-top: -100px;
     text-align: center;
+  }
+
+  .home-video-bg {
+    display: block;
+  }
+
+  video {
+    display: block;
+    width: 100%;
   }
 }
 

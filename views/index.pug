@@ -2,8 +2,8 @@ extends layout
 
 block content
   - var homeClass = 'active'
-  .jumbotron#home-hero
-    .hero-inner
+  .jumbotron#home-hero.embed-responsive.embed-responsive-21by9
+    .hero-inner.embed-responsive-item
       include nav
       .container-fluid.d-flex.hero-content-wrapper.justify-content-center
         .row.align-self-center.justify-content-center
@@ -15,11 +15,8 @@ block content
             h1.display-4
               | Unrivaled accuracy, consistency, and quality
             p Bowery is the world's first truly tech-enabled appraisal firm
-            p
-              .hidden-xs-down.btn.btn-danger Find Out How
-    .home-video-bg
-      video(autoplay loop muted)
-        source(src="/videos/home-bg.mp4" type="video/mp4")
+    video.embed-responsive-item(autoplay loop muted)
+      source(src="/videos/home-bg-trim.mp4" type="video/mp4")
   .container-fluid
     .row
       .responsive-alignment.col-sm-6.offset-sm-3
