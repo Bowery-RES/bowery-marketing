@@ -35,11 +35,10 @@ h6,
   color: #444444;
   font-family: 'Lato', sans-serif;
 }
-// .navbar.navbar-default {
-//   box-shadow: none;
-//   background-color:transparent;
-//   margin-bottom: 0px;
-// }
+
+.navbar {
+  z-index: 999;
+}
 
 .navbar-nav > li > a {
   color: #fff;
