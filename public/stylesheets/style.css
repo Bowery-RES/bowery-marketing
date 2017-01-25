@@ -3,7 +3,13 @@ html, body {
   color: rgb(91, 91, 91);
   -webkit-font-smoothing: antialiased;
   letter-spacing: .1px;
+  max-width: 1646px;
 }
+
+html {
+  margin: auto;
+}
+
 a {
   color: #00B7FF;
   text-decoration: underline;
@@ -204,6 +210,17 @@ h6,
 
 .mobile-benefit {
   padding: 15px ;
+}
+
+.home-video-bg {
+  width: 1646px;
+  max-height: 700px;
+  overflow: hidden;
+  margin-top: -700px;
+}
+
+video {
+  width: 1646px;
 }
 
 @media (min-width: 768px) {
