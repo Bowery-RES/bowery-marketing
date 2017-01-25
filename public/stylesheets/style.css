@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  font: 16px "Open Sans", Helvetica, Arial, sans-serif;
+  font: 14px "Open Sans", Helvetica, Arial, sans-serif;
   color: rgb(91, 91, 91);
   line-height: 1.66em;
   min-height: 100vh;
@@ -48,11 +48,13 @@ h6,
 }
 
 .navbar-brand {
-  height: 100px;  
+  height: 100px;
+  padding: 15px 15px;  
 }
 
+
 #home-hero {
-  height: 700px;
+  height: 350px;
   background-image:url('/images/test_home_background.jpg');
   background-size: cover;
 }
@@ -99,10 +101,6 @@ h6,
   transform: translateY(-50%);
 }
 
-.hero-copy {
-  min-height: 500px;
-}
-
 .hero-inner h3, 
 .hero-inner .h3,
 .hero-inner h4,
@@ -122,6 +120,10 @@ h6,
   font-weight: 400;
 }
 
+#bowery-benefits {
+  margin-top: 35px;
+}
+
 #bowery-benefits ul {
   position: relative;
   z-index: 1;
@@ -131,7 +133,7 @@ h6,
 #bowery-benefits .dot {
   width: 20px;
   height: 20px;
-  margin: auto;
+  margin: 35px auto;
   border-radius: 50%;
   border: 5px #2C4B68 solid;
   background-color: white;
@@ -142,8 +144,9 @@ h6,
   vertical-align: top;
 }
 
-#bowery-benefits li p {
-  margin-top: 35px;
+.benefit-icon {
+  margin: auto;
+  height: 72px
 }
 
 .timeline {
@@ -151,7 +154,7 @@ h6,
   height: 3px;
   background-color: red;
   position: relative;
-  top: 10px;
+  top: 120px;
   z-index: 0;
   margin: auto;
   left: 0;
@@ -165,9 +168,11 @@ h6,
 }
 
 .bio-img {
-  max-width: 100%;
+  max-width: 175px;
   height: auto;
   vertical-align: top;
+  margin: auto;
+  display: block;
 }
 
 .bio-tile {
@@ -176,14 +181,52 @@ h6,
   margin-bottom: 20px;
 }
 
-.bio-tile h3 {
-  margin-top: 0;
-}
-
 #team-bios {
   background-image:url('/images/small_steps.png'); 
 }
 
 #team-bios .hero-copy {
   min-height: 250px;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .navbar-nav > li > a {
+      padding-top: 38.5px;
+      padding-bottom: 38.5px;
+  }
+  #home-hero {
+    height: 700px;
+  }
+
+  #team-hero {
+    height: 350px;
+  }
+
+  .hero-copy {
+    min-height: 500px;
+  }
+
+  .bio-img {
+    margin: inherit;
+    max-width: 100%;
+  }
+
+}
+
+@media (min-width: 568px) {
+  .bio-img {
+    max-width: 100%;
+  }
+
+  .bio-tile h3 {
+    margin-top: 0;
+  }
+
+}
+
+@media (max-width: 768px) {
+
 }
