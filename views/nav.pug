@@ -1,4 +1,4 @@
-.navbar.navbar-default
+.hidden-xs-up.navbar.navbar-default
   .container-fluid
     .navbar-header
       a.navbar-brand(href="/")
@@ -9,3 +9,14 @@
           a(href="/") Home
         li
           a(href="/team") Team
+nav.navbar.navbar-toggleable-md.navbar-inverse
+  button.navbar-toggler.navbar-toggler-right(type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+    span.navbar-toggler-icon
+  a.navbar-brand(href="/")
+    img(src="/images/boweryLogo_white.png", height=75, width=75)
+  .collapse.navbar-collapse.justify-content-end
+    ul.navbar-nav
+      li.nav-item
+        a.nav-link(href="/") Home
+      li.nav-item
+        a.nav-link(href="/team") Team
