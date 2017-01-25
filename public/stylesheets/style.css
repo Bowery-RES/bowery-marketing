@@ -186,6 +186,11 @@ h6,
   border-color: transparent;
   color: #fff;
   margin-top: 30.5px;
+  z-index: 1;
+}
+
+.navbar-brand {
+  z-index: 0;
 }
 
 #home-hero .hero-inner,
