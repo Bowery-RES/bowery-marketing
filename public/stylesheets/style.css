@@ -47,8 +47,9 @@ h6,
 
 #home-hero {
   min-height: 350px;
-  background-image:url('/images/test_home_background.jpg');
+  background-image:url('/images/video-bg-screen.png');
   background-size: cover;
+  background-position: center center;
 }
 
 #team-hero {
@@ -112,12 +113,16 @@ h6,
 #contact {
   height: 300px;
   background-color: black;
-  background-image:url('/images/test_contact_background.jpg');
+  background-image:url('/images/test_home_background.jpg');
   background-size: cover;
 }
 
 #contact h4 {
   font-weight: 400;
+}
+
+#contact h2 {
+  color: #fff;
 }
 
 #bowery-benefits {
