@@ -47,9 +47,10 @@ h6,
 
 #home-hero {
   min-height: 350px;
-  background-image:url('/images/video-bg-screen.png');
+  //background-image:url('/images/video-bg-screen.png');
   background-size: cover;
   background-position: center center;
+  background-color: red;
 }
 
 #team-hero {
@@ -76,6 +77,8 @@ h6,
 .jumbotron {
   padding: 0;
   color: #fff;
+  border-radius: 0px;
+  border: none;
   h1, h2, h3, h4, h5 {
     color: #fff;
     text-decoration: underline;
