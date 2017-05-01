@@ -10,6 +10,10 @@ router.get('/team', function(req, res, next) {
   res.render('team', { title: 'Our Team - Bowery Real Estate Systems' });
 });
 
+router.get('/clients', function(req, res, next) {
+  res.render('client', { title: 'Client Resources - Bowery Real Estate Systems' });
+});
+
 var nodemailer = require('nodemailer');
 
 // router.post('/contact', function (req, res) {

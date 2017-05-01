@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  - var teamClass = 'active'
+  #client
+    #client-header
+      .jumbotron
+          include nav
+          .container-fluid
+              .col-sm-12.text-center
+                img.bio-img.img-thumbnail.lead-appraiser-image(
+                  src='/images/headshots/james.jpg'
+                )
+                br
+                h1.display-4 James Dunne, MAI, COO
+                h2 Get to know James, Bowery's lead appraiser
+    #client-body
+      .container-fluid
+        .row
+          .col-md-3#sidebar
+            ul.list-unstyled
+              li
+                a.active(href="#lead-appraiser") Overview
+              li Experience
+              li Qualifications
+          .col-md-9
+            include lead-appraiser
+            include qualifications
