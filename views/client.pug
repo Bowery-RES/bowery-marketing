@@ -14,15 +14,17 @@ block content
                 br
                 h1.display-4 James Dunne, MAI, COO
                 h2 Get to know James, Bowery's lead appraiser
-    #client-body
+    #client-body(data-target="#sidebar")
       .container-fluid
         .row
           .col-md-3#sidebar
-            ul.list-unstyled
-              li
-                a.active(href="#lead-appraiser") Overview
-              li Experience
-              li Qualifications
+            ul.nav.flex-column.list-unstyled
+              li.nav-item
+                a.nav-link.active(href='#client-header') Overview
+              li.nav-item
+                a.nav-link(href='#experience') Experience
+              li.nav-item
+                a.nav-link(href='#qualifications') Qualifications
           .col-md-9
             include lead-appraiser
             include qualifications
