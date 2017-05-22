@@ -215,7 +215,6 @@ h6,
 
 #mobile-toggler {
   border-color: transparent;
-  color: #fff;
   margin-top: 30.5px;
   z-index: 1;
 }
@@ -296,6 +295,17 @@ video {
 
 .nav-link {
   padding: 0px;
+}
+
+
+// New Design Styles
+
+#benefits-cards {
+  border: 1px blue solid;
+}
+
+#benefits-cards .benefit-img {
+  background-color: red;
 }
 
 @media (min-width: 768px) {
