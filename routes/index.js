@@ -3,15 +3,15 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Bowery Valuation' });
+  res.render('index', { title: 'Bowery Real Estate Systems' });
 });
 
 router.get('/team', function(req, res, next) {
-  res.render('team', { title: 'Our Team - Bowery Valuation' });
+  res.render('team', { title: 'Our Team - Bowery Real Estate Systems' });
 });
 
 router.get('/clients', function(req, res, next) {
-  res.render('client', { title: 'Client Resources - Bowery Valuation' });
+  res.render('client', { title: 'Client Resources - Bowery Real Estate Systems' });
 });
 
 var nodemailer = require('nodemailer');
