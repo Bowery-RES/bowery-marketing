@@ -1,4 +1,4 @@
-nav.navbar.navbar-toggleable-sm.navbar-light
+nav.navbar.navbar-toggleable-sm.navbar-inverse
   button#mobile-toggler.navbar-toggler.navbar-toggler-right(
     type="button"
     data-toggle="collapse"
@@ -9,12 +9,11 @@ nav.navbar.navbar-toggleable-sm.navbar-light
   )
     span.navbar-toggler-icon
   a.navbar-brand(href="/")
-    img(src="/images/boweryLogo.png", height=75, width=75)
+    img(src="/images/boweryLogo_white.png", height=75, width=75)
   #navLinks.collapse.navbar-collapse.justify-content-end
     ul.navbar-nav
       li.nav-item
         a.nav-link(href="/", class=homeClass) Home
       li.nav-item
         a.nav-link(href="/team", class=teamClass) Team
-      li.nav-item
-        a.nav-link(href="/team", class=teamClass) Services
+      li.nav-item=label

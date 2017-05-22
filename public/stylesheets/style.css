@@ -38,7 +38,7 @@ h6,
 }
 
 .navbar-nav > li > a {
-  color: #344A5E;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -46,26 +46,11 @@ h6,
     color: rgba(255,255,255,0.5);
 }
 
-.hero-copy {
-  padding: 0px 30px;
-}
-
-#home-hero .hero-copy {
-  margin-top: 100px;
-}
-
 #home-hero {
-  min-height: 100vh;
+  min-height: 350px;
+  background-image:url('/images/video-bg-screen.png');
   background-size: cover;
-  background-position: center 120px;
-  background-color: #fff;
-  background-image:url('/images/home_background.png');
-  color: black;
-  background-repeat: no-repeat;
-}
-
-#home-hero h1 {
-  color: #344A5E;
+  background-position: center center;
 }
 
 #team-hero {
@@ -73,6 +58,11 @@ h6,
   background-image:url('/images/shutterstock_441668059.jpg');
   background-size: cover;
   background-position: center;
+}
+
+.jumbotron h1,
+.jumbotron .h1 {
+  color: #fff;
 }
 
 .jumbotron h2,
@@ -108,7 +98,7 @@ h6,
 }
 
 .hero-inner {
-  background-color:  transparent;
+  background-color: rgba(0,0,0,0.5);
   height: 100%;
   top: 0;
   z-index: 1;
@@ -215,6 +205,7 @@ h6,
 
 #mobile-toggler {
   border-color: transparent;
+  color: #fff;
   margin-top: 30.5px;
   z-index: 1;
 }
@@ -297,17 +288,6 @@ video {
   padding: 0px;
 }
 
-
-// New Design Styles
-
-#benefits-cards {
-  border: 1px blue solid;
-}
-
-#benefits-cards .benefit-img {
-  background-color: red;
-}
-
 @media (min-width: 768px) {
   html, body {
     font-size: 18px;
@@ -347,9 +327,14 @@ video {
     background-position: center center;
   }
 
+  .hero-copy {
+    padding: 0px 30px;
+  }
+
   .hero-content-wrapper {
     height: 100%;
-    text-align: left;
+    margin-top: -100px;
+    text-align: center;
   }
 
   .home-video-bg {

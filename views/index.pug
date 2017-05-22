@@ -5,19 +5,27 @@ block content
   .jumbotron#home-hero.embed-responsive.embed-responsive-21by9
     .hero-inner.embed-responsive-item
       include nav
-      .container-fluid.d-flex.hero-content-wrapper.justify-content-left
-        .row
+      .container-fluid.d-flex.hero-content-wrapper.justify-content-center
+        .row.align-self-center.justify-content-center
           .hero-copy.col-12.col-sm-auto.hidden-md-up
             h1
-              | Bowery is a new kind of appraisal firm. 
+              | Unrivaled accuracy, consistency, and quality
             p Bowery is the world's first truly tech-enabled appraisal firm
-          .hero-copy.col-8.col-md-auto.hidden-sm-down
-            h1
-              |  Bowery is the world's first truly tech-enabled appraisal firm. 
-            p
-              | We use dope tech to create the world's best appraisals.
-            a.btn.btn-secondary(href="/files/James_Dunne_Professional_Profile_Bowery.docx") Request a sample report
+          .hero-copy.col-10.col-md-auto.hidden-sm-down
+            h1.display-4
+              | Unrivaled accuracy, consistency, and quality
+            p Bowery is the world's first truly tech-enabled appraisal firm
+    video.embed-responsive-item(autoplay loop muted)
+      source(src="/videos/home-bg.mp4" type="video/mp4")
   .container-fluid
+    .row
+      .responsive-alignment.col-sm-6.offset-sm-3
+        h3
+          | Our Tech
+          wbr
+          |  Makes Us Different
+        br
+        p Powered by big data, advanced technology, and extensive expertise, Bowery is redefining the commercial appraisal space.
     .row
       include bowery-benefits
   include contact
