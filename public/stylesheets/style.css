@@ -1,0 +1,371 @@
+html, body {
+  font: 16px "Open Sans", Helvetica, Arial, sans-serif;
+  color: rgb(91, 91, 91);
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .1px;
+  max-width: 1646px;
+  line-height: 1.7em;
+}
+
+html {
+  margin: auto;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: inherit;
+  color: #444444;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  z-index: 999;
+}
+
+.navbar-nav > li > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+    color: rgba(255,255,255,0.5);
+}
+
+#home-hero {
+  min-height: 350px;
+  background-image:url('/images/video-bg-screen.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+#team-hero {
+  min-height: 350px;
+  background-image:url('/images/shutterstock_441668059.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron h1,
+.jumbotron .h1 {
+  color: #fff;
+}
+
+.jumbotron h2,
+.jumbotron .h2 {
+  color: #fff;
+}
+
+.jumbotron .h3,
+.jumbotron h3 {
+  line-height: inherit;
+  color: #fff;
+}
+
+.jumbotron p {
+  font-weight: 400;
+}
+
+.jumbotron {
+  padding: 0;
+  color: #fff;
+  border-radius: 0px;
+  border: none;
+  h1, h2, h3, h4, h5 {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+}
+
+.hero-content-wrapper {
+  height: 250px;
+  text-align: center;
+}
+
+.hero-inner {
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.vertically-center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.hero-inner h3, 
+.hero-inner .h3,
+.hero-inner h4,
+.hero-inner .h4 {
+  color: #fff;
+}
+
+#contact {
+  height: 300px;
+  background-color: black;
+  background-image:url('/images/test_home_background.jpg');
+  background-size: cover;
+}
+
+#contact h4 {
+  font-weight: 400;
+}
+
+#contact h2 {
+  color: #fff;
+}
+
+#bowery-benefits {
+  margin-top: 35px;
+}
+
+#bowery-benefits ul {
+  position: relative;
+  z-index: 1;
+  margin-left: 0;
+}
+
+#bowery-benefits .dot {
+  width: 20px;
+  height: 20px;
+  margin: 35px auto;
+  border-radius: 50%;
+  border: 5px #2C4B68 solid;
+  background-color: white;
+}
+
+#bowery-benefits li {
+  vertical-align: top;
+}
+
+.benefit-icon {
+  margin: auto;
+  height: 72px;
+  margin: 15px;
+}
+
+.timeline {
+  width: 79%;
+  height: 3px;
+  background-color: red;
+  position: relative;
+  top: 120px;
+  z-index: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,009688+0,2d93d9+100,7db9e8+100 */
+  background-color: #1e5799; /* Old browsers */
+  background: -moz-linear-gradient(left,  #1e5799 0%, #009688 0%, #2d93d9 100%, #7db9e8 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #1e5799 0%,#009688 0%,#2d93d9 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #1e5799 0%,#009688 0%,#2d93d9 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+.bio-img {
+  max-height: 240px;
+  vertical-align: top;
+  margin: auto;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.bio-tile {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+#team-bios {
+  background-image:url('/images/small_steps.png'); 
+}
+
+#team-bios .hero-copy {
+  min-height: 250px;
+}
+
+#mobile-toggler {
+  border-color: transparent;
+  color: #fff;
+  margin-top: 30.5px;
+  z-index: 1;
+}
+
+.navbar-brand {
+  z-index: 0;
+}
+
+#home-hero .hero-inner,
+#team-hero .hero-inner {
+  min-height: 350px;
+}
+
+.responsive-alignment {
+  text-align: center;
+}
+
+.mobile-benefit {
+  padding: 15px ;
+}
+
+.home-video-bg {
+  width: 1646px;
+  max-height: 700px;
+  overflow: hidden;
+  margin-top: -700px;
+  z-index: 0;
+  display: none;
+}
+
+video {
+  width: 1646px;
+  display: none;
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+  -moz-transform: scale(1.01);
+}
+
+/* Client Page Styles */
+#sidebar a {
+  color: inherit;
+}
+
+#sidebar a.active {
+  text-decoration: none;
+  color: #3e4e68;
+  font-weight: 600;
+}
+
+#client-header .jumbotron {
+  background-color: #3e4e68;
+}
+
+#client-header .jumbotron {
+  padding-bottom: 30px;
+}
+
+.icon {
+  font-size: 130%;
+}
+
+#contact-info {
+  line-height: 200%;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+#client .bio-img {
+  width: 205px;
+}
+
+#sidebar {
+  line-height: 2em;
+  margin-bottom: 2em;
+}
+
+.nav-link {
+  padding: 0px;
+}
+
+@media (min-width: 768px) {
+  html, body {
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+  .navbar-nav > li > a {
+      padding-top: 38.5px;
+      padding-bottom: 38.5px;
+  }
+
+  #team-hero {
+    height: 350px;
+  }
+
+  .bio-img {
+    margin: inherit;
+    max-width: 100%;
+  }
+
+  .bio-img.lead-appraiser-image {
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+
+  #bowery-benefits li {
+    vertical-align: top;
+    width: 20%;
+    margin-right: 0;
+  }
+
+  .benefit-icon {
+    margin: auto;
+  }
+
+  #contact {
+    background-position: center center;
+  }
+
+  .hero-copy {
+    padding: 0px 30px;
+  }
+
+  .hero-content-wrapper {
+    height: 100%;
+    margin-top: -100px;
+    text-align: center;
+  }
+
+  .home-video-bg {
+    display: block;
+  }
+
+  video {
+    display: block;
+    width: 100%;
+  }
+
+  #sidebar ul {
+    position: fixed;
+  }
+
+  #sidebar {
+    line-height: 2em;
+  }
+
+  .nav-link {
+    padding: .5em 1em;
+  }
+}
+
+@media (min-width: 568px) {
+  .bio-img {
+    max-width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .bio-tile h3 {
+    margin-top: 0;
+  }
+}
