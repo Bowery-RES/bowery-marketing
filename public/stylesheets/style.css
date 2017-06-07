@@ -1,5 +1,5 @@
 html, body {
-  font: 16px "Open Sans", Helvetica, Arial, sans-serif;
+  font: 16px "Roboto", Helvetica, Arial, sans-serif;
   color: rgb(91, 91, 91);
   -webkit-font-smoothing: antialiased;
   letter-spacing: .1px;
@@ -13,6 +13,10 @@ html {
 
 a {
   color: #00B7FF;
+}
+
+small {
+  font-weight: inherit;
 }
 
 
@@ -30,7 +34,8 @@ h6,
 .h6 {
   font-family: inherit;
   color: #444444;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
 }
 
 .navbar {
@@ -43,7 +48,7 @@ h6,
 }
 
 .navbar-inverse .navbar-nav .nav-link {
-    color: rgba(255,255,255,0.5);
+    color: rgba(255,255,255,0.4);
 }
 
 #home-hero {
@@ -87,7 +92,7 @@ h6,
   h1, h2, h3, h4, h5 {
     color: #fff;
     text-decoration: underline;
-    font-weight: 600;
+    font-weight: 200;
   }
 }
 
@@ -226,21 +231,9 @@ h6,
   padding: 15px ;
 }
 
-.home-video-bg {
-  width: 1646px;
-  max-height: 700px;
-  overflow: hidden;
-  margin-top: -700px;
-  z-index: 0;
-  display: none;
-}
-
-video {
-  width: 1646px;
-  display: none;
-  -webkit-transform: scale(1.01);
-  transform: scale(1.01);
-  -moz-transform: scale(1.01);
+.embed-responsive .embed-responsive-item, .embed-responsive video {
+  width: 100%;
+  height: auto;
 }
 
 /* Client Page Styles */
