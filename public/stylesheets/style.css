@@ -1,5 +1,5 @@
 html, body {
-  font: 16px "Roboto", Helvetica, Arial, sans-serif;
+  font: 16px "Open Sans", Helvetica, Arial, sans-serif;
   color: rgb(91, 91, 91);
   -webkit-font-smoothing: antialiased;
   letter-spacing: .1px;
@@ -102,7 +102,7 @@ h6,
 }
 
 .hero-inner {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.4);
   height: 100%;
   top: 0;
   z-index: 1;
