@@ -377,5 +377,8 @@ h6,
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1920px) {
+  .hero-copy {
+    margin-top: -25%;
+  }
 }
