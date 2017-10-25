@@ -14,6 +14,10 @@ router.get('/clients', function(req, res, next) {
   res.render('client', { title: 'Client Resources - Bowery Valuation' });
 });
 
+router.get('/partnership', function(req, res, next) {
+  res.render('partnership', { title: 'Cushman & Wakefield Parnters with Bowery Valuation' });
+});
+
 var nodemailer = require('nodemailer');
 
 // router.post('/contact', function (req, res) {
