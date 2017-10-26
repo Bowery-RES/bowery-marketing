@@ -1,5 +1,6 @@
 extends layout
 
 block content
-  video.embed-responsive-item.hidden-sm-down(autoplay loop controls)
-    source(src="/videos/bowery_partnership_video.mp4" type="video/mp4")
+  .embed-responsive.embed-responsive-16by9
+    video.embed-responsive-item(autoplay loop controls)
+      source(src="/videos/bowery_partnership_video.mp4" type="video/mp4")
